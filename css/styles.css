@@ -1,0 +1,628 @@
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Fuentes / Body
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.carousel-caption {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: #f8f8f8;
+}
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Sociales
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+.fa-facebook-square::before,
+.fa-twitter-square::before,
+.fa-instagram-square::before,
+.fa-pinterest-square::before,
+.fa-youtube-square::before {
+    font-size: 2em;
+    color: #e082a8;
+}
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Nav
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.navegacion {
+    background-color: #8ed3cc;
+}
+.navbar-light .navbar-toggler {
+    background-color: #ffffff;
+    width: 100%;
+}
+.navbar-brand {
+    opacity: 0;
+}
+/* .nav-principal {
+    background-image: url(../img/border_horizontal.png),
+                      url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, -20px bottom;
+    padding-bottom: 3px;
+} */
+.nav-principal {
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    padding: 3px 5px;
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: all .5s ease-in-out;
+}
+.nav-link:hover {
+    background-color: #6bc7be;
+    color: #ffbde9;
+}
+.nav-link:active {
+    background-color: #e082a8;
+    border-radius: 20%;
+}
+.activa {
+    background-color: #e082a8;
+    border-radius: 15px;
+}
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Section
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.section-frase p {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-size: 1.4rem;
+}
+.textfirst {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+    text-shadow: 1px 1px 2px #797979;
+}
+.textfirst span {
+    font-size: 2.2rem;
+    font-family: 'Italianno', cursive;
+    color: #e082a8;
+}
+section {
+    margin-bottom: 4em;
+}
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Grid
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.imagen-servicios img{
+    border: 6px solid #ffffff;
+    transition: transform .5s ease;
+}
+.imagen-servicios img:hover {
+    transform: scale(1.2);
+}
+.imagen-servicios .imagen-info {
+    background-color: #ffffff;
+    margin-top: -5em;
+}
+.imagen-info button {
+    border-radius: 0;
+    border: none;
+    background-color: #e082a8;
+    color: #ffffff;
+    transition: all ease .5s;
+}
+.imagen-info button:hover {
+    background-color: #ffffff;
+    color: #e082a8;
+    box-shadow: 0px 0px 45px inset;
+}
+.imagen-info button:focus {
+    box-shadow: 0px 0px 50px inset #e082a8;
+    transform: scale(1.09);
+}
+.imagen-info button:active {
+    box-shadow: 0px 0px 150px inset #e082a8;
+    color: #ffffff;
+    border: none;
+}
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Horario
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+.horario {
+    background-color: #8ed3cc;
+    color: #ffffff;
+}
+.horario h2 {
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+}
+.horario .table {
+    border: 2px solid #e082a8;
+}
+.horario .table thead {
+    background-color: #e082a8;
+}
+.horario .table thead th,
+.horario .table td{
+    border: none;
+}
+.horario .table tbody tr td {
+    padding: .35rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.horario .img-horario {
+    background: url(../img/bg_horarios.jpg) no-repeat center center / cover;
+    min-height: 250px;
+}
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Section
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+.productos .card {
+    border: none;
+    box-shadow: 0px 0px 10px 2px #c9c8c8;
+}
+.productos .card:hover {
+    border: none;
+    box-shadow: 0px 0px 10px 2px #c9c8c8;
+    background: radial-gradient(farthest-side at 100% 190%, #c9c8c8 5%, #ffffff 95%);
+}
+
+.productos .card a {
+    color: #000000;
+}
+.productos .card a:hover {
+    text-decoration: none;
+}
+.productos .card h3 {
+    color: #e082a8;
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+}
+.productos .card p {
+    font-size: .9rem;
+}
+.productos .card .precio {
+    font-size: 1.6rem;
+    color: #979797;
+    font-weight: bold;
+}
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Horario
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.citas {
+    background: url(../img/bg_citas.jpg) no-repeat center center / cover fixed;
+    color: #ffffff;
+}
+@media (min-width: 992px) {
+    .citas {
+        background-size: cover;
+    }
+}
+.citas h3 {
+    font-size: 2.5rem;
+}
+.citas p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.citas .btn-primary {
+    background-color: #8ed3cc;
+    border-radius: 0;
+    border: 0;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+}
+.citas .btn-primary:hover {
+    box-shadow: 0px 0px 25px inset #ffffff;
+}
+.citas .btn-primary:focus {
+    box-shadow:0px 0px 20px inset #ffffff;
+}
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Horario
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.footer-final {
+    font-size: 1.1rem;
+}
+.footer-final h3 {
+    font-size: 2rem;
+}
+small {
+    color: #979797;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Nosotros.html
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Hero
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+.hero {
+    position: relative;
+}
+.hero h2 {
+    font-family: 'Ralewey', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #8ed3cc;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Instalaciones
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+.contenido-principal p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+.imagenes img {
+    box-shadow: 0px 0px 5px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  servicios.html
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  collapse
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#servicios .card-header {
+    background-color: #e082a8;
+    padding: 0 1.25rem;
+}
+#servicios .card-header:hover {
+    box-shadow: 0px 0px 3px inset;
+}
+#servicios .card-header .btn-link {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+}
+#servicios .card-body {
+    font-size: 1.25rem;
+    background-color:#eeecec;
+}
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  asside /////// cupon
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+.cupon {
+    font-family: 'Lato', sans-serif;
+    background-color: #6bc7be;
+    color: #ffffff;
+}
+.cupon-cut{
+    border: 3px dashed white;
+}
+.cupon-cut span{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  productos.html
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Productos
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  contacto.html
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                  formulario
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.formulario {
+    background-color: #ffffff;
+    border: 2px solid #9a9a9a;
+}
+.formulario .btn-primary {
+    background-color: #8ed3cc;
+    border-radius: 0;
+    border: 0;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+}
+.formulario .btn-primary:hover {
+    box-shadow: 0px 0px 25px inset #ffffff;
+}
+.formulario .btn-primary:focus {
+    box-shadow:0px 0px 20px inset #ffffff;
+}
+.formulario .btn-primary:active {
+    box-shadow:0px 0px 20px inset #ffffff;
+    background-color: #8ed3cc;
+}
+.send {
+    margin: 50px 0px 5px 0px;
+    display: block;
+    text-align: center;
+    border: 2px #28a745 solid;
+    color: #28a745;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 5px inset #28a745;
+    visibility: visible;
+}
+.sendoff {
+    visibility: hidden;
+}
