@@ -10,7 +10,7 @@
 <?php
 
   $titulo = 'Contacto |';
-  include 'templates\header.php';
+  include 'templates/header.php';
   include 'templates/nav.php'
 
 ?>

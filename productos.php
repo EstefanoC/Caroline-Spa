@@ -109,7 +109,7 @@
               <div class="card-body">
                 <h3 class="card-tittle text-uppercase text-center"><?php echo $producto['nombre']; ?></h3>
                 <p class="card-text uppercase"><?php echo $producto['descripcion_corta']; ?></p>
-                <p class="precio lead text-center mb-0"><?php echo $producto['precio']; ?></p>
+                <p class="precio lead text-center mb-0">$ <?php echo $producto['precio']; ?></p>
               </div>
             </a>
           </div>

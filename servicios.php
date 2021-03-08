@@ -10,7 +10,7 @@
 <?php
 
   $titulo = 'Servicios |';
-  include 'templates\header.php';
+  include 'templates/header.php';
   include 'templates/nav.php'
 
 ?>
