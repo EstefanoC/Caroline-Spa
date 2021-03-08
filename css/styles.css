@@ -237,7 +237,7 @@ section {
 
 .productos .card {
     border: none;
-    box-shadow: 0px 0px 10px 2px #c9c8c8;
+    box-shadow: 0px 0px 10px 2px inset #c9c8c8;
 }
 .productos .card:hover {
     border: none;
