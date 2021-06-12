@@ -5,8 +5,8 @@
 function obtenerPro($cantidad = 1) {
     include 'conexion.php';
     try {
-        $sql = "SELECT *  FROM productos LIMIT $cantidad "; 
-        $resultado = $db->query($sql);  
+        $sql = "SELECT *  FROM productos LIMIT $cantidad ";
+        $resultado = $db->query($sql);
     } catch(Exception $e) {
         echo $e->getMessage();
         return array();
