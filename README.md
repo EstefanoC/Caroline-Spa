@@ -10,15 +10,6 @@
 <br>
 <br>
 
-Información del proyecto    |   Information of proyect
-=============
-
-<br>
-
-[Ejemplo en vivo | Live example](https://caroline-spa.herokuapp.com/index.php "Proyect Link")
-
-<br>
-
 ----
 
 <br>
